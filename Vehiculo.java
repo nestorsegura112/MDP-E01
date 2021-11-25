@@ -1,0 +1,1 @@
+setCodigoPropiedad(int codigoPropiedad)
