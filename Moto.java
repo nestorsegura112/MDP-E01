@@ -1,21 +1,17 @@
 public class Moto implements Vehiculo{
   public int precioMoto = 30;
   public String matricula;
-  public int precio;
-  
-  public void setMatricula(String matricula){
-    this.matricula=matricula;
-  }
-  
-  public String getMatricula(){
-    return matricula;
-  }
+  public int pago;
 
-  public int getPrecio(){
-    return precio;
+  Moto(String matricula){
+    this.matricula=matricula;
   }
 
   public void calcularPrecio(int tiempo){
-    precio=precioMoto*tiempo;
-  }     
+    pago=precioMoto*tiempo;
+  }
+
+  public String toString(){
+    return "Vehiculo: Moto\nMatricula: "+matricula+"\nValor a pagar: "+pago;
+  }
 }
