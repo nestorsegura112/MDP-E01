@@ -13,6 +13,10 @@ El programa permite ingresar algunos datos para un parqueadero y elegir el vehic
 
 y al final el programa genera una factura
 
+Diagrama de clases:
+
+![Diagrama de Clases](DiagramaClases.png)
+
 Principios aplicados:
 
 open/close  
